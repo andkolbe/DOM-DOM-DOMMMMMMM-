@@ -1,0 +1,18 @@
+/*flex must go in the parent element!*/
+body {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.square {
+  height: 150px;
+  width: 150px;
+  background-color:black;
+  border: white solid 1px; 
+}
+
+.square:hover {
+  /* show id? */
+}
