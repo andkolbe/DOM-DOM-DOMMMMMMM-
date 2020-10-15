@@ -1,18 +1,20 @@
 /*flex must go in the parent element!*/
-body {
+.container {
   display: flex; 
-  flex-direction: row;
   flex-wrap: wrap;
 }
-
 
 .square {
   height: 150px;
   width: 150px;
+  line-height: 150px;
+  text-align: center;
   background-color:black;
   border: white solid 1px; 
-}
-
-.square:hover {
-  /* show id? */
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 75px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  user-select: none;
 }
